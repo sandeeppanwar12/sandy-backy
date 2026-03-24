@@ -4,6 +4,9 @@
   "description": "SAP Order-to-Cash Graph Backend - Express + SQLite + Groq AI",
   "type": "commonjs",
   "main": "index.js",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
