@@ -18,12 +18,12 @@ app.use('/api', apiRoutes);
 // Start
 const PORT = process.env.PORT || 3001;
 initDB();
-app.listen(PORT, () => {
-  console.log(`\n🚀 SAP O2C Backend running on http://localhost:${PORT}`);
-  console.log(`   LLM : Groq (${GROQ_MODEL})`);
-  console.log(`   GET  /api/health`);
-  console.log(`   GET  /api/graph`);
-  console.log(`   GET  /api/schema`);
-  console.log(`   POST /api/query`);
-  console.log(`   GET  /api/expand/:nodeId\n`);
-});
+// app.listen(PORT, () => {
+//   console.log(`\n🚀 SAP O2C Backend running on http://localhost:${PORT}`);
+//   console.log(`   LLM : Groq (${GROQ_MODEL})`);
+//   console.log(`   GET  /api/health`);
+//   console.log(`   GET  /api/graph`);
+//   console.log(`   GET  /api/schema`);
+//   console.log(`   POST /api/query`);
+//   console.log(`   GET  /api/expand/:nodeId\n`);
+// });
